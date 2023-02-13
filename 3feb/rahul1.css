@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}*
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background: url(./assets/rahul.jpg) no-repeat center; 
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: hidden; 
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 230, 140);
+    font-weight: 500px;
+    font-size: medium;
+    
+}
+button{
+    background-color: rgb(249, 61, 61);
+    color: whitesmoke;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    width: fit-content;
+    border: none;
+}
+button :hover{
+    background-color: white;
+}
+
+  header {
+    padding: 15px 0;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+  nav .logo {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(250, 199, 123);
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+  }
+  
+  nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+  }
+  .hero-section {
+    display: flex;
+    align-items: center;
+  }
+  .hero-main-section {
+    display: flex;
+    flex-direction: column;
+    width: 400%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .hero-main-section h1 {
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+    color: rgb(255, 140, 0);
+  }
+  .hero-main-section-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 40px;
+  }
+
+  footer {
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    color: rgb(254, 184, 134);
+  }
+  
+  footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  footer a{
+    color: rgb(245, 245, 245);
+    font-weight: 600px;
+    font-size: large;
+  }
+  footer .fot{
+    margin-bottom: 5px;
+    color: rgb(245, 245, 245);
+    font-weight: 400px;
+    font-size: medium;
+  }
+  footer .f{
+    font-weight: 100px;
+    font-size: medium;
+    color: oldlace;
+  }
